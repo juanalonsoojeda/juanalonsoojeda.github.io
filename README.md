@@ -1,3 +1,3 @@
-# Juan Alonso Ojeda Salazar
+# Juan Ojeda
 
-## Software engineer
+## Just a simple javascript playground
