@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1.4fr 1.5fr;
+    grid-template-areas: "controls .""html css""js result";
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.controls {
+    grid-area: controls;
+}
+
+.html {
+    grid-area: html;
+}
+
+.css {
+    grid-area: css;
+}
+
+.js {
+    grid-area: js;
+}
+
+.result {
+    grid-area: result;
+}
+
+.text-control {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    resize: none;
+    margin: 0px;
+}
+
+.frame {
+    min-width: 100px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+}
